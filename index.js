@@ -14,7 +14,8 @@ const bodyEl = document.querySelector("body");
 
 const imageEl = document.createElement('img');
 imageEl.alt = 'Випадкове зображення';
-imageEl.width = 300;
+imageEl.width = 400;
+imageEl.height = 300;
 imageEl.src = getRandomImagePath();
 bodyEl.appendChild(imageEl);
 
